@@ -12,6 +12,16 @@
     clip-path: polygon(0 0, 100% 5%, 100% 90%, 0% 100%);
 }
 
+.logoBox {
+    position: absolute;
+    margin: 30px;
+}
+
+.logo {
+    height: 70px;
+    border-radius: 100%;
+}
+
 .textBox {
     position: absolute;
     top: 45%;
