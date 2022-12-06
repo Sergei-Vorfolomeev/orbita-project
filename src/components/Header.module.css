@@ -1,0 +1,42 @@
+.header {
+    height: 95vh;
+    margin: 30px;
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(253, 64, 64, 0.3),
+            rgba(227, 199, 252, 0.5)),
+    url("../img/astronaut.jpg");
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 5%, 100% 90%, 0% 100%);
+}
+
+.textBox {
+    position: absolute;
+    top: 45%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 1000px;
+    line-height: 1.4;
+}
+
+.titlePrimary {
+    display: block;
+    color: white;
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    text-transform: uppercase;
+}
+
+.titleSub {
+    display: block;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 15.5px;
+    text-transform: uppercase;
+
+}
