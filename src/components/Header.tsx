@@ -12,6 +12,9 @@ export const Header = () => {
             <div className={styles.textBox}>
                 <span className={styles.titlePrimary}>Orbita</span>
                 <span className={styles.titleSub}>Deeper into space</span>
+                <div className={styles.btnBox}>
+                    <a href="#" className={styles.btn}>Describe our tours</a>
+                </div>
             </div>
 
         </header>
