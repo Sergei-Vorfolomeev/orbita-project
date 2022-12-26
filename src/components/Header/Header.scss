@@ -1,11 +1,19 @@
+
+$color-gradient-start: rgba(253, 64, 64, 1);
+$color-gradient-end: rgba(227, 199, 252, 1);
+$color-white: white;
+$color-grey: #555;
+$color-black: #000;
+
+
 .header {
     height: 95vh;
     background-image:
             linear-gradient(
             to right bottom,
-            rgba(253, 64, 64, 0.3),
-            rgba(227, 199, 252, 0.3)),
-    url("../img/astronaut.jpg");
+            rgba($color-gradient-start, 0.3),
+            rgba($color-gradient-end, 0.3)),
+    url("../../img/astronaut.jpg");
     background-position: top;
     background-size: cover;
     position: relative;
@@ -22,12 +30,12 @@
     height: 6rem;
     border-radius: 100%;
     transition: all 0.5s;
-    box-shadow: -0.3rem -0.3rem 2rem rgba(0, 0, 0, 0.5);
+    box-shadow: -0.3rem -0.3rem 2rem rgba($color-black, 0.5);
 }
 
 .logo:hover {
     transform: scale(1.2);
-    box-shadow: -0.9rem -0.9rem 2rem rgba(0, 0, 0, 0.5);
+    box-shadow: -0.9rem -0.9rem 2rem rgba($color-black, 0.5);
 }
 
 .textBox {
@@ -42,7 +50,7 @@
 
 .titlePrimary {
     display: block;
-    color: white;
+    color: $color-white;
     font-size: 5.8rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
@@ -52,7 +60,7 @@
 
 .titleSub {
     display: block;
-    color: white;
+    color: $color-white;
     font-size: 2.2rem;
     font-weight: 300;
     letter-spacing: 1.55rem;
@@ -91,25 +99,25 @@
     position: relative;
     left: -1rem;
     font-weight: 700;
-    color: #555;
+    color: $color-grey;
     background-color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 1.5rem 2.7rem;
     border-radius: 10rem;
     letter-spacing: .1rem;
-    box-shadow: .1rem .2rem 1rem rgba(0, 0, 0, 0.5);
+    box-shadow: .1rem .2rem 1rem rgba($color-black, 0.5);
     transition: all .2s;
     animation: moveToUp .5s ease-out 1.7s;
     animation-fill-mode: backwards;
 }
 .btn:hover {
     transform: translateY(-0.3rem);
-    box-shadow: .1rem 1.2rem 2rem rgba(0, 0, 0, 0.5);
+    box-shadow: .1rem 1.2rem 2rem rgba($color-black, 0.5);
 }
 .btn:active {
     transform: translateY(-0.1rem);
-    box-shadow: .1rem .7rem 1.5rem rgba(0, 0, 0, 0.5);
+    box-shadow: .1rem .7rem 1.5rem rgba($color-black, 0.5);
 }
 .btn:link::after,
 .btn:visited::after {
