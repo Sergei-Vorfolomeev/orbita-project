@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+html {
+  font-size: 62.5%;  /*default root font-size = 16px*/
+  //it defines that 1 rem is 10px
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 3rem;
+  box-sizing: border-box;
+}
