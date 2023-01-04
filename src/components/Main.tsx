@@ -1,4 +1,8 @@
 import React from 'react';
+import galaxy from '../img/galaxy.jpg'
+import star from '../img/sun.jpg'
+import planet from '../img/planet.jpg'
+import planet2 from '../img/Planet-2.jpg'
 
 export const Main = () => {
     return (
@@ -28,8 +32,10 @@ export const Main = () => {
                         </p>
                         <a href="#" className="btn-text">Learn more &rarr;</a>
                     </div>
-                    <div className="image-composition">
-                        Image composition
+                    <div className="composition">
+                        <img src={planet} alt="planet" className="composition__photo composition__photo--p1"/>
+                        <img src={galaxy} alt="galaxy" className="composition__photo composition__photo--p2"/>
+                        <img src={star} alt="star" className="composition__photo composition__photo--p3"/>
                     </div>
                 </div>
             </section>
