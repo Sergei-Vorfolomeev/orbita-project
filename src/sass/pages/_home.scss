@@ -2,10 +2,15 @@
   background-color: $color-grey-light-1;
   height: 95vh;
   margin-top: -10vh;
-  padding: 20rem 0;
+  padding: 15rem 0;
 }
 
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+
+.text-container {
+  width: 40%;
 }
