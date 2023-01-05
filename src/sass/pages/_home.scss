@@ -1,8 +1,8 @@
 .section-about {
   background-color: $color-grey-light-1;
-  height: 95vh;
+  height: 110vh;
   margin-top: -10vh;
-  padding: 10rem 0;
+  padding: 15rem 0;
 }
 
 .container {
@@ -13,4 +13,22 @@
 
 .text-container {
   width: 40%;
+}
+
+.section-features {
+  padding: 18rem;
+  background-image:
+          linear-gradient(
+                  to right top,
+                          rgba(108, 76, 217, 0.3),
+                          rgba($color-secondary, 0.1)),
+  url("../../img/background-section-features.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+  clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 95%);
+  margin-top: -6rem;
+  display: flex;
+  justify-content: space-between;
+
 }
