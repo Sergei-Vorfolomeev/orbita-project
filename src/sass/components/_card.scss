@@ -19,7 +19,7 @@
     }
 
     &--back {
-      background-color: green;
+      background-color: $color-secondary;
      transform: rotateY(180deg);
       left: 100px
     }
