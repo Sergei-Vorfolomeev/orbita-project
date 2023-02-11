@@ -8,6 +8,8 @@ export const SectionTours = () => {
             <Title text={'Most popular tours'}/>
             <div className="container">
                 <Tour/>
+                <Tour/>
+                <Tour/>
             </div>
         </section>
     );
