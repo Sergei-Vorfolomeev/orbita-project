@@ -25,7 +25,7 @@
     }
   }
 
-  &:hover &__side--front:hover {
+  &:hover &__side--front:hover  {
     background-color: $color-primary;
     transform: rotateY(180deg);
   }
