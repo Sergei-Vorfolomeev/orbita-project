@@ -28,6 +28,7 @@
       transform: scale(1.08) translateY(-.5rem);
       box-shadow: 0 2.5rem 6rem rgba($color-black, .4);
     }
+
   }
   &:hover &__photo:not(:hover) {
     transform: scale(0.9);

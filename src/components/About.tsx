@@ -2,15 +2,12 @@ import React from 'react';
 import planet from "../img/planet.jpg";
 import galaxy from "../img/galaxy.jpg";
 import star from "../img/sun.jpg";
+import {Title} from "./common/Title";
 
 export const About = () => {
     return (
         <section className={'section-about'}>
-            <div className={"u-center-text u-margin-bottom-big"}>
-                <h2 className={"heading-secondary"}>
-                    Exiting tours for adventurous people
-                </h2>
-            </div>
+            <Title text={'Exiting tours for adventurous people'}/>
             <div className="container">
                 <div className="text-container">
                     <h3 className="heading-tertiary u-margin-bottom-small">
