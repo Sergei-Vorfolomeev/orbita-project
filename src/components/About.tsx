@@ -5,9 +5,14 @@ import star from "../img/sun.jpg";
 import {Title} from "./common/Title";
 
 export const About = () => {
+
+    const titleStyleMarginBottomBig = {
+        marginBottom: '10rem'
+    }
+
     return (
         <section className={'section-about'}>
-            <Title text={'Exiting tours for adventurous people'}/>
+            <Title text={'Exiting tours for adventurous people'} style={titleStyleMarginBottomBig}/>
             <div className="container">
                 <div className="text-container">
                     <h3 className="heading-tertiary u-margin-bottom-small">
