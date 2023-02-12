@@ -1,10 +1,10 @@
 import React from 'react';
-import {Title} from "./common/Title";
-import {Tour} from "./common/Tour";
-import saturn from '../img/saturn.jpeg'
-import jupiter from '../img/galaxy.jpg'
-import andromeda from '../img/WallpaperDog-5560400.jpg'
-import {Button} from "./common/Button";
+import {Title} from "../common/Title";
+import {Tour} from "./Tour";
+import saturn from '../../img/saturn.jpeg'
+import jupiter from '../../img/galaxy.jpg'
+import andromeda from '../../img/WallpaperDog-5560400.jpg'
+import {Button} from "../common/Button";
 
 export const SectionTours = () => {
 
@@ -37,7 +37,7 @@ export const SectionTours = () => {
     const andromedaTourDetails = ['The first feature', 'Duration will be some years', 'Visit other star system', 'Explore our galaxy', 'minus optio porro reiciendis unde vero']
 
     const color7 = 'rgba(113, 13, 125, 0.82)';
-    const color8 = 'rgb(67,197,213)'
+    const color8 = 'rgba(67,197,213)'
 
     const buttonStyle = {
         backgroundColor: '#710D7DD1',

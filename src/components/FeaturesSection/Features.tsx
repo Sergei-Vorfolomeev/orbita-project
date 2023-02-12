@@ -1,8 +1,8 @@
 import React from 'react';
-import iconUniverse from '../icons/universe.png'
-import astronaut from '../icons/astronaut.png'
-import ufo from '../icons/ufo.png'
-import {Feature} from "./common/Feature";
+import iconUniverse from '../../icons/universe.png'
+import astronaut from '../../icons/astronaut.png'
+import ufo from '../../icons/ufo.png'
+import {Feature} from "./Feature";
 
 export const Features = () => {
     return (

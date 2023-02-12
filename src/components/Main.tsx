@@ -1,7 +1,8 @@
 import React from 'react';
-import {About} from "./About";
-import {Features} from "./Features";
-import {SectionTours} from "./SectionTours";
+import {About} from "./AboutSection/About";
+import {Features} from "./FeaturesSection/Features";
+import {SectionTours} from "./ToursSection/SectionTours";
+import {StoriesSection} from "./StoriesSection/StoriesSection";
 
 export const Main = () => {
     return (
@@ -9,6 +10,7 @@ export const Main = () => {
             <About/>
             <Features/>
             <SectionTours/>
+            <StoriesSection/>
         </main>
     );
 };
