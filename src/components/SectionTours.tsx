@@ -4,6 +4,7 @@ import {Tour} from "./common/Tour";
 import saturn from '../img/saturn.jpeg'
 import jupiter from '../img/galaxy.jpg'
 import andromeda from '../img/WallpaperDog-5560400.jpg'
+import {Button} from "./common/Button";
 
 export const SectionTours = () => {
 
@@ -35,13 +36,24 @@ export const SectionTours = () => {
     const milkyWayTourDetails = ['The first feature', 'Duration will be some years', 'Visit other star system', 'Explore our galaxy', 'minus optio porro reiciendis unde vero']
     const andromedaTourDetails = ['The first feature', 'Duration will be some years', 'Visit other star system', 'Explore our galaxy', 'minus optio porro reiciendis unde vero']
 
+    const color7 = 'rgba(113, 13, 125, 0.82)';
+    const color8 = 'rgb(67,197,213)'
+
+    const buttonStyle = {
+        backgroundColor: '#710D7DD1',
+        color: '#FFF'
+    }
+
     return (
         <section className={'section-tours'}>
             <Title text={'Most popular tours'} style={titleStyleMarginBottomMedium}/>
             <div className="container">
-                <Tour title={'Saturn'} style={saturnTourStyles} details={saturnTourDetails}/>
-                <Tour title={'Milky way'} style={milkyWayTourStyles} details={milkyWayTourDetails}/>
-                <Tour title={'Andromeda'} style={andromedaTourStyles} details={andromedaTourDetails}/>
+                <Tour title={'Saturn'} style={saturnTourStyles} details={saturnTourDetails} price={'99.999$'}/>
+                <Tour title={'Milky way'} style={milkyWayTourStyles} details={milkyWayTourDetails} price={'999.999$'}/>
+                <Tour title={'Andromeda'} style={andromedaTourStyles} details={andromedaTourDetails} price={'9.999.999$'}/>
+            </div>
+            <div className={'button-box'}>
+                <Button name={'Describe all tours'} style={buttonStyle}/>
             </div>
         </section>
     );
