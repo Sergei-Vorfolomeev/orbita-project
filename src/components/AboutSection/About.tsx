@@ -3,6 +3,7 @@ import planet from "../../img/planet.jpg";
 import galaxy from "../../img/galaxy.jpg";
 import star from "../../img/sun.jpg";
 import {Title} from "../common/Title";
+import {Button2} from "../common/Button2";
 
 export const About = () => {
 
@@ -30,7 +31,7 @@ export const About = () => {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut cumque, cupiditate
                         dignissimos doloremque, ducimus eaque esse illo illum ipsum laboriosam modi.
                     </p>
-                    <a href="src/components/AboutSection/About#" className="btn-text">Learn more &rarr;</a>
+                    <Button2 name={'Learn more'}/>
                 </div>
                 <div className="composition">
                     <img src={planet} alt="planet" className="composition__photo composition__photo--p1"/>

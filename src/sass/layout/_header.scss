@@ -2,9 +2,11 @@
   height: 95vh;
   background-image: linear-gradient(
                   to right bottom,
-                  rgba($color-gradient-start, 0.3),
-                  rgba($color-gradient-end, 0.3)),
-  url("../../img/astronaut.jpg");
+                  //rgba($color-primary, 0.4),
+                  //rgba($color-secondary, 0.4)),
+                  rgba($color-gradient-start, 0.25),
+                  rgba($color-gradient-end, 0.5)),
+ url("../../img/astronaut.jpg");
   background-position: top;
   background-size: cover;
   position: relative;

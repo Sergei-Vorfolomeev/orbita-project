@@ -2,19 +2,25 @@ import React from 'react';
 
 type StoryPropsType = {
     avatar: string
+    name: string
+    title: string
+    description: string
+    style: StyleType
+}
+type StyleType = {
+    left: string
 }
 
-export const Story = ({avatar}: StoryPropsType) => {
+export const Story = ({avatar, name, title, description, style}: StoryPropsType) => {
     return (
         <div className={'story'}>
-            <div className="story__shape"/>
+            <div className="story__shape">
+                <img src={avatar} alt="avatar" className={'story__img'} style={style}/>
+                <div className="story__name">{name}</div>
+            </div>
             <div className="story__text">
-                <h3 className="heading-tertiary">
-                    I had the best time ever
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate ea, fugiat magni maiores non numquam quis quisquam rem, reprehenderit velit vero? Cupiditate deserunt eligendi fugit, in laborum libero maiores maxime necessitatibus nihil nobis numquam officia omnis praesentium!
-                </p>
+                <h3 className="heading-tertiary">{title}</h3>
+                <p>{description}</p>
             </div>
         </div>
     );
