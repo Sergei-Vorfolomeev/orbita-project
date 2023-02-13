@@ -1,5 +1,5 @@
 .story {
-  background-color: $color-white;
+  background-color: rgba($color-white, 0.6);
   width: 75%;
   margin: 0 auto 7rem;
   padding: 2rem 6rem;
@@ -9,7 +9,6 @@
   font-size: $default-font-size;
   transform: skewX(-12deg);
   position: relative;
-
 
   &__shape {
     width: 15rem;

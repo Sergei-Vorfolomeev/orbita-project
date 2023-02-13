@@ -3,6 +3,7 @@ import {About} from "./AboutSection/About";
 import {Features} from "./FeaturesSection/Features";
 import {SectionTours} from "./ToursSection/SectionTours";
 import {StoriesSection} from "./StoriesSection/StoriesSection";
+import {BookSection} from "./BookSection/BookSection";
 
 export const Main = () => {
     return (
@@ -11,6 +12,7 @@ export const Main = () => {
             <Features/>
             <SectionTours/>
             <StoriesSection/>
+            <BookSection/>
         </main>
     );
 };
