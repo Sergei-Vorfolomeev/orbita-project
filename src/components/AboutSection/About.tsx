@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import planet from "../../img/planet.jpg";
 import galaxy from "../../img/galaxy.jpg";
 import star from "../../img/sun.jpg";

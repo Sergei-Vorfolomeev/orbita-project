@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {Story} from "./Story";
 import {Title} from "../common/Title";
 import avatarMe from '../../img/avatarMe.jpg'

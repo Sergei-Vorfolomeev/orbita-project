@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {About} from "./AboutSection/About";
 import {Features} from "./FeaturesSection/Features";
 import {SectionTours} from "./ToursSection/SectionTours";

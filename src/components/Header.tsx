@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import '../sass/main.scss'
 import logo from '../img/logo.jpg'
 import {Button} from "./common/Button";

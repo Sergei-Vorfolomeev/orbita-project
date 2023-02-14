@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import iconUniverse from '../../icons/universe.png'
 import astronaut from '../../icons/astronaut.png'
 import ufo from '../../icons/ufo.png'
