@@ -1,12 +1,12 @@
 .navigation {
 
   &__checkbox {
-   display: none;
+    display: none;
   }
 
   &__button {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 6rem;
+    height: 6rem;
     background-color: $color-white;
     position: fixed;
     top: 7rem;
@@ -14,6 +14,11 @@
     border-radius: 50%;
     z-index: 2000;
     box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
+    //text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
   }
 
   &__background {
@@ -32,7 +37,7 @@
   &__nav {
     height: 100vh;
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     z-index: 1500;
 
@@ -69,11 +74,12 @@
       background-position: 0;
       transition: all, .5s;
 
-       span {
-         margin-right: 1.5rem;
-         display: inline-block;
-       }
+      span {
+        margin-right: 1.5rem;
+        display: inline-block;
+      }
     }
+
     &:hover,
     &:active {
       background-position: 100%;
@@ -82,11 +88,63 @@
   }
 
   &__checkbox:checked ~ &__background {
-   transform: scale(61);
+    transform: scale(61);
   }
+
   &__checkbox:checked ~ &__nav {
     width: 100%;
     opacity: 1;
+  }
+
+  //ICON
+  &__icon {
+    position: relative;
+    margin-top: 3rem;
+
+
+
+    &,
+    &::before,
+    &::after {
+      width: 3rem;
+      height: 2px;
+      background-color: $color-grey-dark-3;
+      display: inline-block;
+      position: absolute;
+      transition: all .2s;
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      left: 0;
+
+    }
+
+    &::before {
+      top: .8rem;
+    }
+
+    &::after {
+      top: -.8rem;
+    }
+  }
+  &__button:hover &__icon::before {
+    top: 1rem;
+  }
+  &__button:hover &__icon::after {
+    top: -1rem;
+  }
+  &__checkbox:checked + &__button &__icon {
+    background-color: transparent;
+  }
+  &__checkbox:checked + &__button &__icon::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  &__checkbox:checked + &__button &__icon::after {
+    transform: rotate(-45deg);
+    top: 0;
   }
 }
 
