@@ -1,0 +1,18 @@
+.navigation-button {
+  width: 6rem;
+  height: 6rem;
+  background-image: radial-gradient($color-secondary, $color-primary);
+  position: fixed;
+  top: 7rem;
+  right: 7rem;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+
+
+.navigation {
+  height: 100vh;
+  position: absolute;
+  background-color: aqua;
+}

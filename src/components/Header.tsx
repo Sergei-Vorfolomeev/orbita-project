@@ -3,7 +3,6 @@ import '../sass/main.scss'
 import logo from '../img/logo.jpg'
 import {Button} from "./common/Button";
 
-
 export const Header = () => {
 
     const buttonStyle = {
