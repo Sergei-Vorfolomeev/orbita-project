@@ -9,12 +9,11 @@
     height: 6rem;
     background-color: $color-white;
     position: fixed;
-    top: 7rem;
+    top: 6rem;
     right: 6rem;
     border-radius: 50%;
     z-index: 2000;
     box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
-    //text-align: center;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -26,7 +25,7 @@
     height: 5rem;
     background-image: radial-gradient($color-secondary, $color-primary);
     position: fixed;
-    top: 7.5rem;
+    top: 6.5rem;
     right: 6.5rem;
     border-radius: 50%;
     z-index: 1000;
