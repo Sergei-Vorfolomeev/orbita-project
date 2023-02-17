@@ -12,7 +12,7 @@ export const About = () => {
     }
 
     return (
-        <section className={'section-about'}>
+        <section className={'section-about'} id={'section-about'}>
             <Title text={'Exiting tours for adventurous people'} style={titleStyleMarginBottomBig}/>
             <div className="container">
                 <div className="text-container">

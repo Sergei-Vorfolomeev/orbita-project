@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {Title} from "../common/Title";
 import {Tour} from "./Tour";
 import saturn from '../../img/saturn.jpeg'
@@ -45,7 +45,7 @@ export const SectionTours = () => {
     }
 
     return (
-        <section className={'section-tours'}>
+        <section className={'section-tours'} id={'section-tours'}>
             <Title text={'Most popular tours'} style={titleStyleMarginBottomMedium}/>
             <div className="container">
                 <Tour title={'Saturn'} style={saturnTourStyles} details={saturnTourDetails} price={'99.999$'}/>
@@ -53,7 +53,7 @@ export const SectionTours = () => {
                 <Tour title={'Andromeda'} style={andromedaTourStyles} details={andromedaTourDetails} price={'9.999.999$'}/>
             </div>
             <div className={'button-box'}>
-                <Button name={'Describe all tours'} style={buttonStyle}/>
+                <Button name={'Describe all tours'} style={buttonStyle} href={'#section-tours'}/>
             </div>
         </section>
     );

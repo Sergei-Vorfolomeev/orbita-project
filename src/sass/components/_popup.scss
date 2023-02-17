@@ -9,6 +9,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+
+
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
 
   &__content {
     width: 75%;
@@ -17,6 +26,12 @@
     display: table;
     border-radius: 3px;
     overflow: hidden;
+    transform: scale(.25);
+    transition: all .5s .2s;
+  }
+
+  &:target &__content {
+    transform: scale(1);
   }
 
   &__left {
@@ -35,6 +50,7 @@
     display: table-cell;
     vertical-align: middle;
   }
+
   &__text {
     font-size: 1.4rem;
     line-height: 2rem;
@@ -44,5 +60,24 @@
     column-rule: 1px solid $color-grey-light-2;
 
     hyphens: auto;
+  }
+
+  &__close {
+    &:link,
+    &:visited {
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem;
+      text-decoration: none;
+      font-size: 3rem;
+      display: inline-block;
+      line-height: 1;
+      color: $color-grey-dark-1;
+      transition: all .2s;
+    }
+
+    &:hover {
+      color: $color-secondary;
+    }
   }
 }

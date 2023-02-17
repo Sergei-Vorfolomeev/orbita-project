@@ -14,7 +14,7 @@ export const BookSection = () => {
     }
 
     return (
-        <section className={'section-book'}>
+        <section className={'section-book'} id={'section-book'}>
             <div className="book">
                 <div className="book__form">
                     <Title text={'Start booking now'} style={titleStyleMarginBottomMedium}/>
@@ -47,7 +47,7 @@ export const BookSection = () => {
                         </div>
                     </form>
                     <div className={'button-box'}>
-                        <Button name={'Next step'} style={buttonStyle}/>
+                        <Button name={'Next step'} style={buttonStyle} href={'#section-book'}/>
                     </div>
                 </div>
             </div>

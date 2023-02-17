@@ -19,7 +19,7 @@ export const StoriesSection = () => {
     }
 
     return (
-        <section className={'section-stories'}>
+        <section className={'section-stories'} id={'section-stories'}>
             {/*<div className="bg-video">*/}
             {/*    <video className="bg-video__container" autoPlay muted loop>*/}
             {/*        <source src={spaceVideo} type='video/mp4'/>*/}

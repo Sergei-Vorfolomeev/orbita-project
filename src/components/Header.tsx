@@ -20,7 +20,7 @@ export const Header = () => {
                     <span className={'heading-primary--main'}>Orbita</span>
                     <span className={'heading-primary--sub'}>Deeper into space</span>
                 </h1>
-                <Button name={'Describe our tours'} style={buttonStyle}/>
+                <Button name={'Describe our tours'} style={buttonStyle} href={'#section-tours'}/>
             </div>
         </header>
     );

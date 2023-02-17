@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {Button} from "../common/Button";
 
 type TourPropsType = {
@@ -38,7 +38,7 @@ export const Tour = (props: TourPropsType) => {
                     <p className="price-value">{props.price}</p>
                 </div>
                 <div className="button-box">
-                    <Button name={'Book now'} style={buttonStyle}/>
+                    <Button name={'Book now'} style={buttonStyle} href={'#popup'}/>
                 </div>
             </div>
         </div>
