@@ -34,7 +34,7 @@
 
 .section-tours {
   background-color: $color-grey-light-1;
-  min-height: 120vh;
+  min-height: 130vh;
   margin-top: -10vh;
   padding: 13rem 0 0;
   display: flex;
@@ -43,14 +43,18 @@
 }
 
 .section-stories {
-  background-color: $color-grey-light-1;
+  background-image: linear-gradient(
+                  to right top,
+                  rgba(108, 76, 217, 0.3),
+                  rgba($color-secondary, 0.1)),
+  url("../../img/background-section-features.jpg");
   min-height: 100vh;
-  padding: 7.5rem 15rem;
+  padding: 10rem 15rem;
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: -2rem;
-}
+  margin-top: -10rem;
+  clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 95%);}
 
 .section-book {
   padding: 3rem 15rem 15rem;

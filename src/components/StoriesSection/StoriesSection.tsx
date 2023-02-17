@@ -3,7 +3,7 @@ import {Story} from "./Story";
 import {Title} from "../common/Title";
 import avatarMe from '../../img/avatarMe.jpg'
 import avatarSecond from '../../img/avatarSecond.jpeg'
-import spaceVideo from '../../img/asteroids.mp4'
+import universeVideo from '../../img/UniverseVideo.mp4'
 import {Button2} from "../common/Button2";
 
 export const StoriesSection = () => {
@@ -20,11 +20,11 @@ export const StoriesSection = () => {
 
     return (
         <section className={'section-stories'} id={'section-stories'}>
-            {/*<div className="bg-video">*/}
-            {/*    <video className="bg-video__container" autoPlay muted loop>*/}
-            {/*        <source src={spaceVideo} type='video/mp4'/>*/}
-            {/*    </video>*/}
-            {/*</div>*/}
+            <div className="bg-video">
+                <video className="bg-video__container" autoPlay muted loop>
+                    <source src={universeVideo} type='video/mp4'/>
+                </video>
+            </div>
                 <Title text={'We make people happy'} style={titleStyleMarginBottomMedium}/>
                 <Story avatar={avatarMe}
                        name={'Sergey'}
