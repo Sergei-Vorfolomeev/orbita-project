@@ -72,11 +72,21 @@
       background-size: 230%;
       background-position: 0;
       transition: all, .5s;
+      position: relative;
 
       span {
         margin-right: 1.5rem;
         display: inline-block;
       }
+      //label {
+      //  display: inline-block;
+      //  width: 100%;
+      //  position: absolute;
+      //  top: 0;
+      //  left: 0;
+      //  opacity: 0;
+      //  z-index: 0;
+      //}
     }
 
     &:hover,
@@ -99,8 +109,6 @@
   &__icon {
     position: relative;
     margin-top: 3rem;
-
-
 
     &,
     &::before,
