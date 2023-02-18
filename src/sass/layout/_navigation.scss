@@ -18,6 +18,14 @@
     display: flex;
     justify-content: center;
 
+    @include respond(tab-port) {
+      top: 4rem;
+      right: 4rem;
+    }
+    @include respond(phone) {
+      top: 3rem;
+      right: 3rem;
+    }
   }
 
   &__background {
@@ -31,6 +39,15 @@
     z-index: 1000;
 
     transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+    @include respond(tab-port) {
+      top: 4.5rem;
+      right: 4.5rem;
+    }
+    @include respond(phone) {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
   }
 
   &__nav {
@@ -78,15 +95,6 @@
         margin-right: 1.5rem;
         display: inline-block;
       }
-      //label {
-      //  display: inline-block;
-      //  width: 100%;
-      //  position: absolute;
-      //  top: 0;
-      //  left: 0;
-      //  opacity: 0;
-      //  z-index: 0;
-      //}
     }
 
     &:hover,

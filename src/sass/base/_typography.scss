@@ -57,9 +57,9 @@ body {
     font-size: 3rem;
   }
 
-  @include respond(phone) {
-    font-size: 2rem;
-  }
+  //@include respond(phone) {
+  //  font-size: 2rem;
+  //}
 
   &:hover {
     transform: scale(1.1);

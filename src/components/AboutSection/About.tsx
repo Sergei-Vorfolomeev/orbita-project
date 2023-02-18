@@ -14,7 +14,7 @@ export const About = () => {
     return (
         <section className={'section-about'} id={'section-about'}>
             <Title text={'Exiting tours for adventurous people'} style={titleStyleMarginBottomBig}/>
-            <div className="container">
+            <div className="container-about">
                 <div className="text-container">
                     <h3 className="heading-tertiary u-margin-bottom-small">
                         You're going to fall in love with space
