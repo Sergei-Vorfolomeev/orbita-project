@@ -10,12 +10,24 @@
   justify-content: space-between;
   padding: 0 10rem;
   width: 100%;
+
+  @media (max-width: 1080px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 550px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 }
 
 .text-container {
   width: 40%;
 }
-
+// FEATURES
 .section-features {
   padding: 15rem;
   background-image: linear-gradient(
@@ -30,6 +42,7 @@
   margin-top: -6rem;
   display: flex;
   justify-content: space-between;
+  position: relative;
 
   @include respond(tab-port) {
     padding: 15rem;
@@ -47,23 +60,30 @@
     padding: 22rem;
   }
 }
-
+// TOURS
 .section-tours {
   background-color: $color-grey-light-1;
-  min-height: 130vh;
+  min-height: 100vh;
   margin-top: -10vh;
   padding: 13rem 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 1080px) {
+
+  }
 }
 
+// STORIES
 .section-stories {
   background-image: linear-gradient(
                   to right top,
                   rgba(108, 76, 217, 0.3),
                   rgba($color-secondary, 0.1)),
   url("../../img/background-section-features.jpg");
+  background-position: center;
+  background-size: cover;
   min-height: 100vh;
   padding: 10rem 15rem;
   display: flex;

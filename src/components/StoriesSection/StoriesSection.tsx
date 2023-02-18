@@ -20,11 +20,11 @@ export const StoriesSection = () => {
 
     return (
         <section className={'section-stories'} id={'section-stories'}>
-            <div className="bg-video">
-                <video className="bg-video__container" autoPlay muted loop>
-                    <source src={universeVideo} type='video/mp4'/>
-                </video>
-            </div>
+            {/*<div className="bg-video">*/}
+            {/*    <video className="bg-video__container" autoPlay muted loop>*/}
+            {/*        <source src={universeVideo} type='video/mp4'/>*/}
+            {/*    </video>*/}
+            {/*</div>*/}
                 <Title text={'We make people happy'} style={titleStyleMarginBottomMedium}/>
                 <Story avatar={avatarMe}
                        name={'Sergey'}
