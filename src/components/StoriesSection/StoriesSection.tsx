@@ -3,13 +3,13 @@ import {Story} from "./Story";
 import {Title} from "../common/Title";
 import avatarMe from '../../img/avatarMe.jpg'
 import avatarSecond from '../../img/avatarSecond.jpeg'
-import universeVideo from '../../img/UniverseVideo.mp4'
 import {Button2} from "../common/Button2";
 
 export const StoriesSection = () => {
 
     const titleStyleMarginBottomMedium = {
-        marginBottom: '70px'
+        marginBottom: '70px',
+        backgroundImage: 'linear-gradient(to right, #96bbec, #5becd9)',
     }
     const avatarMeStyle = {
         left: '1.85rem',
@@ -17,14 +17,13 @@ export const StoriesSection = () => {
     const avatarSecondStyle = {
         left: '-4rem',
     }
+    const button2Style = {
+        color: '#fff',
+        borderBottom: '1px solid #fff'
+    }
 
     return (
         <section className={'section-stories'} id={'section-stories'}>
-            {/*<div className="bg-video">*/}
-            {/*    <video className="bg-video__container" autoPlay muted loop>*/}
-            {/*        <source src={universeVideo} type='video/mp4'/>*/}
-            {/*    </video>*/}
-            {/*</div>*/}
                 <Title text={'We make people happy'} style={titleStyleMarginBottomMedium}/>
                 <Story avatar={avatarMe}
                        name={'Sergey'}
@@ -43,7 +42,7 @@ export const StoriesSection = () => {
                        style={avatarSecondStyle}
                 />
                 <div className={'btn-box'}>
-                    <Button2 name={'Read all stories'}/>
+                    <Button2 name={'Read all stories'} style={button2Style}/>
                 </div>
         </section>
     );

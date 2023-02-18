@@ -117,7 +117,7 @@
   url("../../img/background-section-features.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 10rem 15rem;
   display: flex;
   flex-direction: column;
@@ -129,8 +129,9 @@
     clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 97%);
     margin-top: -7rem;
   }
-  @media(max-width: 500px) {
+  @media(max-width: 520px) {
     clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 99%);
+    padding: 6rem;
   }
 }
 
