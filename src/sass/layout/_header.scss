@@ -12,6 +12,10 @@
   position: relative;
   clip-path: polygon(0 0, 100% 0%, 100% 85vh, 0% 100%);
 
+  @include respond(tab-port) {
+    clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  }
+
 
   &__logoBox {
     position: absolute;
@@ -39,6 +43,12 @@
     text-align: center;
     width: 50rem;
     line-height: 1.5;
+
+    @include respond(tab-port) {
+      top: 38%;
+      left: 68%;
+      transform: translate(-50%, -50%);
+    }
 
     @include respond(phone) {
       top: 35%;

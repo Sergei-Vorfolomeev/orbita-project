@@ -37,7 +37,7 @@ export const Tour = (props: TourPropsType) => {
                     <p className="price-only">Only</p>
                     <p className="price-value">{props.price}</p>
                 </div>
-                <div className="button-box">
+                <div className="button-box-tour">
                     <Button name={'Book now'} style={buttonStyle} href={'#popup'}/>
                 </div>
             </div>
