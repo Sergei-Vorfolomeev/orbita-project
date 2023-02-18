@@ -3,7 +3,7 @@ import {Story} from "./Story";
 import {Title} from "../common/Title";
 import avatarMe from '../../img/avatarMe.jpg'
 import avatarSecond from '../../img/avatarSecond.jpeg'
-import {Button2} from "../common/Button2";
+import {Button3} from "../common/Button3";
 
 export const StoriesSection = () => {
 
@@ -42,7 +42,7 @@ export const StoriesSection = () => {
                        style={avatarSecondStyle}
                 />
                 <div className={'btn-box'}>
-                    <Button2 name={'Read all stories'} style={button2Style}/>
+                    <Button3 name={'Read all stories'}/>
                 </div>
         </section>
     );

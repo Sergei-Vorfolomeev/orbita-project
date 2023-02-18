@@ -134,6 +134,13 @@
   margin-top: 3rem;
   margin-bottom: 10rem;
 }
+.button-box-book {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  @include respond(tab-port) {
+    margin-top: 0;
+  }
+}
 .button-box-tour {
   margin-top: 3rem;
   margin-bottom: 10rem;

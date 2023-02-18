@@ -46,7 +46,7 @@ export const BookSection = () => {
                             </div>
                         </div>
                     </form>
-                    <div className={'button-box'}>
+                    <div className={'button-box-book'}>
                         <Button name={'Next step'} style={buttonStyle} href={'#section-book'}/>
                     </div>
                 </div>
