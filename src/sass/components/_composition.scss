@@ -23,15 +23,17 @@
 
     &--p1 {
       top: -2rem;
-      left: 1rem;
+      left: 0;
 
       @media (max-width: 900px) {
         top: 0;
+        left: 1rem;
         transform: scale(1.1);
       }
     }
     &--p2 {
       top: 2rem;
+      right: 0;
 
       @media (max-width: 900px) {
         top: 0;
