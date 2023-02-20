@@ -28,9 +28,9 @@ export const SectionTours = () => {
         // linear-gradient(to right bottom, ${color3}, ${color4}),
         //`url(${saturn})`,
     }
-    const titleStyleMarginBottomMedium = {
-        marginBottom: '70px'
-    }
+    // const titleStyleMarginBottomMedium = {
+    //     marginBottom: '70px'
+    // }
 
     const saturnTourDetails = ['The first feature', 'Duration will be some months', 'Visit Saturn\'s moons', 'Explore Saturn\'s rings', 'minus optio porro reiciendis unde vero']
     const milkyWayTourDetails = ['The first feature', 'Duration will be some years', 'Visit other star system', 'Explore our galaxy', 'minus optio porro reiciendis unde vero']
@@ -46,8 +46,8 @@ export const SectionTours = () => {
 
     return (
         <section className={'section-tours'} id={'section-tours'}>
-            <Title text={'Most popular tours'} style={titleStyleMarginBottomMedium}/>
-            <div className="container">
+            <Title text={'Most popular tours'}/>
+            <div className="container-tours">
                 <Tour title={'Saturn'} style={saturnTourStyles} details={saturnTourDetails} price={'99.999$'}/>
                 <Tour title={'Milky way'} style={milkyWayTourStyles} details={milkyWayTourDetails} price={'999.999$'}/>
                 <Tour title={'Andromeda'} style={andromedaTourStyles} details={andromedaTourDetails} price={'9.999.999$'}/>

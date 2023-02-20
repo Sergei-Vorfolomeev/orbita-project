@@ -1,6 +1,6 @@
 .section-about {
   background-color: $color-grey-light-1;
-  min-height: 75vh;
+  min-height: 65vh;
   margin-top: -10vh;
   padding: 18rem 0;
 
@@ -33,7 +33,7 @@
   }
 }
 
-.container {
+.container-tours {
   display: flex;
   justify-content: space-between;
   padding: 0 10rem;
@@ -77,6 +77,14 @@
   justify-content: space-between;
   position: relative;
 
+  @include respond(tab-land) {
+    padding: 15rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 97%);
+  }
+
   @include respond(tab-port) {
     padding: 15rem;
     flex-direction: column;
@@ -100,13 +108,13 @@
   background-color: $color-grey-light-1;
   min-height: 100vh;
   margin-top: -5vh;
-  padding: 13rem 0 0;
+  padding: 10rem 0 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 1080px) {
-
+  @media (max-width: 900px) {
+    padding: 10rem 0 3rem;
   }
 }
 
@@ -119,8 +127,8 @@
   url("../../img/background-section-features.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 80vh;
-  padding: 10rem 15rem;
+  min-height: 70vh;
+  padding: 12rem 15rem;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -133,26 +141,29 @@
   }
   @media(max-width: 520px) {
     clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 99%);
-    padding: 6rem;
+    padding: 8rem;
+  }
+  @media(max-width: 375px) {
+    padding: 8rem 5rem;
   }
 }
 
 // BOOKING
 .section-book {
-  padding: 15rem;
-  margin-top: -5rem;
+  padding: 15rem 15rem 15rem;
+  margin-top: -6rem;
   min-height: 60vh;
   background-color: $color-grey-light-1;
 
   @include respond(tab-land) {
-    padding: 10rem 3rem 0;
+    padding: 15rem 3rem 15rem;
   }
 }
 
 .book {
   min-height: 60rem;
   width: 100%;
-  margin-bottom: 10rem;
+  //margin-bottom: 10rem;
   background-image: linear-gradient(
                   105deg,
                   rgba($color-white, 0.8) 55%,

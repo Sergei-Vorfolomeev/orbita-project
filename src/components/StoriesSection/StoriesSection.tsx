@@ -8,7 +8,6 @@ import {Button3} from "../common/Button3";
 export const StoriesSection = () => {
 
     const titleStyleMarginBottomMedium = {
-        marginBottom: '70px',
         backgroundImage: 'linear-gradient(to right, #96bbec, #5becd9)',
     }
     const avatarMeStyle = {

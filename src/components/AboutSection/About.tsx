@@ -7,13 +7,9 @@ import {Button2} from "../common/Button2";
 
 export const About = () => {
 
-    const titleStyleMarginBottomBig = {
-        marginBottom: '10rem'
-    }
-
     return (
         <section className={'section-about'} id={'section-about'}>
-            <Title text={'Exiting tours for adventurous people'} style={titleStyleMarginBottomBig}/>
+            <Title text={'Exiting tours for adventurous people'}/>
             <div className="container-about">
                 <div className="text-container">
                     <h3 className="heading-tertiary u-margin-bottom-small">

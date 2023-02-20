@@ -8,6 +8,10 @@
   max-width: 100%;
   font-size: 1.5rem;
 
+  @include respond(tab-land) {
+    max-width: 60%;
+  }
+
   @include respond(tab-port) {
     max-width: 60%;
   }
@@ -18,7 +22,7 @@
   &:not(:last-child) {
   margin-right: 5.5rem;
 
-    @include respond(tab-port) {
+    @include respond(tab-land) {
       margin-right: 0;
       margin-bottom: 5rem;
     }

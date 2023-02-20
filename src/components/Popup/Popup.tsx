@@ -1,8 +1,8 @@
 import * as React from 'react';
-// import img1 from '../../img/galaxy.jpg'
 import img1 from '../../img/saturn.jpeg'
 import img2 from '../../img/WallpaperDog-5560509.jpg'
 import {Button} from "../common/Button";
+import {Title} from "../common/Title";
 
 export const Popup = () => {
 
@@ -20,6 +20,7 @@ export const Popup = () => {
                 </div>
                 <div className="popup__right">
                     <a href={'#section-tours'} className="popup__close">&times;</a>
+                    {/*<Title text={'Start booking now'}/>*/}
                     <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
                     <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
                     <p className="popup__text">

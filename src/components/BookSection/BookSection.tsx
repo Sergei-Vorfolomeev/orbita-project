@@ -4,10 +4,6 @@ import {Button} from "../common/Button";
 
 export const BookSection = () => {
 
-    const titleStyleMarginBottomMedium = {
-        marginBottom: '70px'
-    }
-
     const buttonStyle = {
         backgroundColor: '#710D7DD1',
         color: '#FFF'
@@ -17,7 +13,7 @@ export const BookSection = () => {
         <section className={'section-book'} id={'section-book'}>
             <div className="book">
                 <div className="book__form">
-                    <Title text={'Start booking now'} style={titleStyleMarginBottomMedium}/>
+                    <Title text={'Start booking now'}/>
                     <form action="#" className={'form'}>
                         <div className="form__group">
                             <input type="text" className={'form__input'} placeholder={'Full Name'} id={'name'}

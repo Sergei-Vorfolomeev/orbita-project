@@ -28,6 +28,7 @@
     overflow: hidden;
 
     @include respond(phone) {
+      height: 50rem;
       width: 60%;
     }
 
@@ -164,9 +165,12 @@
         margin-bottom: 5rem;
       }
     }
+    .card &__heading {
+      top: 12.5rem;
+    }
 
     &__side {
-      height: 50rem;
+      height: 45rem;
       width: 100%;
       box-shadow: none;
 
