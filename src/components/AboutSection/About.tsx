@@ -1,5 +1,5 @@
 import * as React from 'react';
-import planet from "../../img/planet.jpg";
+import planet from "../../img/Planet.jpg";
 import galaxy from "../../img/galaxy.jpg";
 import star from "../../img/sun.jpg";
 import {Title} from "../common/Title";
