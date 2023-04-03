@@ -15,29 +15,17 @@ export const SectionTours = () => {
 
     const saturnTourStyles = {
         backgroundImage: `linear-gradient(to right bottom, ${color1}, ${color2}), url(${saturn})`
-        // linear-gradient(to right bottom, ${color1}, ${color2}),
-        //`url(${saturn})`,
     }
     const milkyWayTourStyles = {
         backgroundImage: `linear-gradient(to right bottom, ${color3}, ${color4}), url(${jupiter})`
-        // linear-gradient(to right bottom, ${color3}, ${color4}),
-        //`url(${saturn})`,
     }
     const andromedaTourStyles = {
         backgroundImage: `linear-gradient(to right bottom, ${color3}, ${color4}), url(${andromeda})`
-        // linear-gradient(to right bottom, ${color3}, ${color4}),
-        //`url(${saturn})`,
     }
-    // const titleStyleMarginBottomMedium = {
-    //     marginBottom: '70px'
-    // }
 
     const saturnTourDetails = ['The first feature', 'Duration will be some months', 'Visit Saturn\'s moons', 'Explore Saturn\'s rings', 'minus optio porro reiciendis unde vero']
     const milkyWayTourDetails = ['The first feature', 'Duration will be some years', 'Visit other star system', 'Explore our galaxy', 'minus optio porro reiciendis unde vero']
     const andromedaTourDetails = ['The first feature', 'Duration will be some years', 'Visit other star system', 'Explore our galaxy', 'minus optio porro reiciendis unde vero']
-
-    const color7 = 'rgba(113, 13, 125, 0.82)';
-    const color8 = 'rgba(67,197,213)'
 
     const buttonStyle = {
         backgroundColor: '#710D7DD1',

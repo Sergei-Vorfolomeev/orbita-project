@@ -16,7 +16,7 @@ export const Features = () => {
             <Feature img={iconUniverse} title={'Explore the universe'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo modi quam quis sapiente ut.'}/>
             <Feature img={astronaut} title={'Find your own way'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo modi quam quis sapiente ut.'}/>
             <Feature img={ufo} title={'Meet other civilization'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo modi quam quis sapiente ut.'}/>
-            <Feature img={iconUniverse} title={'Explore the universe'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo modi quam quis sapiente ut.'}/>
+            <Feature img={iconUniverse} title={'Change your life'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo modi quam quis sapiente ut.'}/>
         </section>
     );
 };

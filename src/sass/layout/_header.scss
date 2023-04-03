@@ -2,15 +2,37 @@
   height: 95vh;
   background-image: linear-gradient(
                   to right bottom,
-                  //rgba($color-primary, 0.4),
-                  //rgba($color-secondary, 0.4)),
-                  rgba($color-gradient-start, 0.25),
-                  rgba($color-gradient-end, 0.5)),
+                  rgba($color-primary, 0.25),
+                  rgba($color-secondary, 0.25)),
+                  //rgba($color-gradient-start, 0.25),
+                  //rgba($color-gradient-end, 0.5)),
  url("../../img/astronaut.jpg");
   background-position: top;
   background-size: cover;
   position: relative;
   clip-path: polygon(0 0, 100% 0%, 100% 85vh, 0% 100%);
+
+  @media (max-width: 1920px) {
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary, 0.25),
+                    rgba($color-secondary, 0.25)),
+    url("../../img/astronaut-1920x1080.jpg");
+  }
+  @media (max-width: 1366px) {
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary, 0.25),
+                    rgba($color-secondary, 0.25)),
+    url("../../img/astronaut-1366x768.jpg");
+  }
+  @media (max-width: 1280px) {
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary, 0.25),
+                    rgba($color-secondary, 0.25)),
+    url("../../img/astronaut-1280x720.jpg");
+  }
 
   @include respond(tab-port) {
     clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);

@@ -2,7 +2,6 @@ import * as React from 'react';
 import img1 from '../../img/saturn.jpeg'
 import img2 from '../../img/WallpaperDog-5560509.jpg'
 import {Button} from "../common/Button";
-import {Title} from "../common/Title";
 
 export const Popup = () => {
 

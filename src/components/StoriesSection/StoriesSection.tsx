@@ -16,10 +16,6 @@ export const StoriesSection = () => {
     const avatarSecondStyle = {
         left: '-4rem',
     }
-    const button2Style = {
-        color: '#fff',
-        borderBottom: '1px solid #fff'
-    }
 
     return (
         <section className={'section-stories'} id={'section-stories'}>
