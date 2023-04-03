@@ -1,6 +1,6 @@
 {
   "name": "orbita-project",
-  "homepage": "https://github.io/Sergei-Vorfolomeev/orbita-project",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
