@@ -10,13 +10,13 @@ import {Loader} from "./components/Loader/Loader";
 function App() {
     const [loading, setLoading] = useState(false)
 
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(true)
-        }, 1500)
-    },[])
-
-    if (!loading) return <Loader/>
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setLoading(true)
+    //     }, 1500)
+    // },[])
+    //
+    // if (!loading) return <Loader/>
     return (
         <div className="App">
             <Navigation/>

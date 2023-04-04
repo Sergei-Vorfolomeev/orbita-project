@@ -1,12 +1,12 @@
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-                  to right bottom,
-                  rgba($color-primary, 0.25),
-                  rgba($color-secondary, 0.25)),
-                  //rgba($color-gradient-start, 0.25),
-                  //rgba($color-gradient-end, 0.5)),
- url("../../img/astronaut.jpg");
+ // background-image: linear-gradient(
+ //                 to right bottom,
+ //                 rgba($color-primary, 0.25),
+ //                 rgba($color-secondary, 0.25)),
+ //                 //rgba($color-gradient-start, 0.25),
+ //                 //rgba($color-gradient-end, 0.5)),
+ //url("../../img/astronaut.jpg");
   background-position: top;
   background-size: cover;
   position: relative;
@@ -31,7 +31,7 @@
                     to right bottom,
                     rgba($color-primary, 0.25),
                     rgba($color-secondary, 0.25)),
-    url("../../img/1920.jpg");
+    url("../../img/1920.webp");
   }
 
   @include respond(tab-port) {
