@@ -30,9 +30,9 @@ export const About = () => {
                     <Button2 name={'Learn more'}/>
                 </div>
                 <div className="composition">
-                    <img src={planet} alt="planet" className="composition__photo composition__photo--p1"/>
-                    <img src={galaxy} alt="galaxy" className="composition__photo composition__photo--p2"/>
-                    <img src={star} alt="star" className="composition__photo composition__photo--p3"/>
+                    <img src={planet} alt="planet" className="composition__photo composition__photo--p1" loading={"lazy"}/>
+                    <img src={galaxy} alt="galaxy" className="composition__photo composition__photo--p2" loading={"lazy"}/>
+                    <img src={star} alt="star" className="composition__photo composition__photo--p3" loading={"lazy"}/>
                 </div>
             </div>
         </section>

@@ -15,7 +15,7 @@ export const Story = ({avatar, name, title, description, style}: StoryPropsType)
     return (
         <div className={'story'}>
             <div className="story__shape">
-                <img src={avatar} alt="avatar" className={'story__img'} style={style}/>
+                <img src={avatar} alt="avatar" className={'story__img'} style={style} />
                 <div className="story__name">{name}</div>
             </div>
             <div className="story__text">
