@@ -8,15 +8,15 @@ import {useEffect, useState} from "react";
 import {Loader} from "./components/Loader/Loader";
 
 function App() {
-    const [loading, setLoading] = useState(false)
+    // const [loading, setLoading] = useState(false)
+    //
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setLoading(true)
+    //     }, 1500)
+    // },[])
 
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(true)
-        }, 1000)
-    },[])
-
-    if (!loading) return <Loader/>
+    // if (!loading) return <Loader/>
     return (
         <div className="App">
             <Navigation/>

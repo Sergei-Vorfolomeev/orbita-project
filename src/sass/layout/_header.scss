@@ -12,26 +12,26 @@
   position: relative;
   clip-path: polygon(0 0, 100% 0%, 100% 85vh, 0% 100%);
 
+  @media (min-width: 2560px) {
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary, 0.25),
+                    rgba($color-secondary, 0.25)),
+    url("../../img/astronaut_black_hole_deep_space_universe_cosmos_surreal_3840x4800.jpg");
+  }
+  @media (max-width: 2560px) {
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary, 0.25),
+                    rgba($color-secondary, 0.25)),
+    url("../../img/2560.jpg");
+  }
   @media (max-width: 1920px) {
     background-image: linear-gradient(
                     to right bottom,
                     rgba($color-primary, 0.25),
                     rgba($color-secondary, 0.25)),
-    url("../../img/astronaut-1920x1080.jpg");
-  }
-  @media (max-width: 1366px) {
-    background-image: linear-gradient(
-                    to right bottom,
-                    rgba($color-primary, 0.25),
-                    rgba($color-secondary, 0.25)),
-    url("../../img/astronaut-1366x768.jpg");
-  }
-  @media (max-width: 1280px) {
-    background-image: linear-gradient(
-                    to right bottom,
-                    rgba($color-primary, 0.25),
-                    rgba($color-secondary, 0.25)),
-    url("../../img/astronaut-1280x720.jpg");
+    url("../../img/1920.jpg");
   }
 
   @include respond(tab-port) {
