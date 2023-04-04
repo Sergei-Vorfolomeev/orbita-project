@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "./static/css/main.e441b2e5.css",
-    "main.js": "./static/js/main.11e9f404.js",
+    "main.css": "./static/css/main.03e37093.css",
+    "main.js": "./static/js/main.8fb8ac73.js",
     "static/js/787.444d4f6c.chunk.js": "./static/js/787.444d4f6c.chunk.js",
     "static/media/UniverseVideo.mp4": "./static/media/UniverseVideo.64d517391ffcbb63ff13.mp4",
     "static/media/sun.jpg": "./static/media/sun.8839a85b27918a7917a7.jpg",
     "static/media/Planet.jpg": "./static/media/Planet.31ccc771b30baa7489ba.jpg",
     "static/media/galaxy.jpg": "./static/media/galaxy.e8207dbd0ada2d76bb44.jpg",
     "static/media/astronaut.jpg": "./static/media/astronaut.db88619f12113de4ef86.jpg",
-    "static/media/astronaut-1366x768.jpg": "./static/media/astronaut-1366x768.14230dd69b5cea7c6974.jpg",
+    "static/media/astronaut_black_hole_deep_space_universe_cosmos_surreal_3840x4800.jpg": "./static/media/astronaut_black_hole_deep_space_universe_cosmos_surreal_3840x4800.cc17364dcebdbc9e9423.jpg",
     "static/media/WallpaperDog-5560400.jpg": "./static/media/WallpaperDog-5560400.b1098f15abc29dc0a932.jpg",
-    "static/media/astronaut-1280x720.jpg": "./static/media/astronaut-1280x720.a4454f8ef25f16ab09f1.jpg",
-    "static/media/astronaut-1920x1080.jpg": "./static/media/astronaut-1920x1080.64b6c94737933557811b.jpg",
     "static/media/avatarMe.jpg": "./static/media/avatarMe.afeb08d608a0c15f8518.jpg",
     "static/media/background-section-features.jpg": "./static/media/background-section-features.03108dedefd6a792dc79.jpg",
     "static/media/avatarSecond.jpeg": "./static/media/avatarSecond.15f7a59f3f5cffde5510.jpeg",
+    "static/media/2560.jpg": "./static/media/2560.19f35d40b4907e2743e9.jpg",
     "static/media/WallpaperDog-5560509.jpg": "./static/media/WallpaperDog-5560509.79ffc2bb9761c04aa9c9.jpg",
+    "static/media/1920.jpg": "./static/media/1920.e1073b3a70f01cd86e4e.jpg",
     "static/media/saturn.jpeg": "./static/media/saturn.4b24749efee7bf3becf6.jpeg",
     "static/media/universe.png": "./static/media/universe.6f977e01850320fff6ce.png",
     "static/media/astronaut.png": "./static/media/astronaut.bea6477382ffd5aee7ac.png",
     "static/media/ufo.png": "./static/media/ufo.0d229e5c95c9ac9be70a.png",
     "static/media/logo.jpg": "./static/media/logo.598042dc01cc931c63aa.jpg",
     "index.html": "./index.html",
-    "main.e441b2e5.css.map": "./static/css/main.e441b2e5.css.map",
-    "main.11e9f404.js.map": "./static/js/main.11e9f404.js.map",
+    "main.03e37093.css.map": "./static/css/main.03e37093.css.map",
+    "main.8fb8ac73.js.map": "./static/js/main.8fb8ac73.js.map",
     "787.444d4f6c.chunk.js.map": "./static/js/787.444d4f6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e441b2e5.css",
-    "static/js/main.11e9f404.js"
+    "static/css/main.03e37093.css",
+    "static/js/main.8fb8ac73.js"
   ]
 }
